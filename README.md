@@ -1,4 +1,3 @@
-````markdown
 # Piper TTS for GoldenDict-ng
 
 Fast, local, and private neural text-to-speech integration.
@@ -14,7 +13,6 @@ Fast, local, and private neural text-to-speech integration.
 ```bash
 echo %GDWORD% | [path_to_piper] -m [path_to_model.onnx] --output-raw | ffplay -ar 22050 -ac 1 -f s16le -nodisp -autoexit -i -
 ```
-````
 
 ## Tuning
 
