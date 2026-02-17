@@ -1,6 +1,6 @@
 # Piper TTS for GoldenDict-ng
 
-Fast, local, and private neural text-to-speech integration.
+### Fast, local, and private neural text-to-speech integration.
 
 ## Setup
 
@@ -24,6 +24,3 @@ Add these flags to the piper command to refine the output:
 - **GPU Acceleration**: `--use-cuda` (if supported by your build and hardware).
 - **Speaker ID**: `--speaker [ID]` (for multi-speaker models, e.g., `--speaker 0`).
 
-```
-
-```
